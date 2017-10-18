@@ -1,0 +1,235 @@
+/* main.css */
+
+/* * {
+  outline: 1px solid red;
+ } */
+
+/* body{
+  background-color: purple;
+  margin: 0;
+} */
+
+/* #bug-report{
+  position: absolute;
+  left: 98%;
+  top: 96.5%;
+
+  display: block;
+} */
+
+/* Alpha build.
+// to do
+your colors suck Tony change them
+remove comments
+make code readable
+check responsive design on phones
+add credits for assets
+ */
+
+@import "compass/css3"; /* terminal animation*/
+
+/* ---------------------------- */
+
+
+
+/* front page WebGL black background and placeholder */
+.front-pg-bg {
+  background-color:black;
+  min-height: 100%;
+}
+
+/* NAVBAR */
+
+/* transparent navbar */
+.navbar{
+  background: none;
+}
+
+/* white links */
+.navbar .navbar-nav a {
+  color: white;
+}
+/* ./ NAVBAR */
+
+
+/* PARALLAX */
+
+/* global parallax settings */
+.about-bg, .skills-bg, .exp-bg, .portfolio-bg, .contact-bg, .footer-bg {
+  position: relative;
+  /* filter: brightness(50%);
+  opacity: 0.9; */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* about header parallax image */
+.about-bg{
+  background-color:none;
+  background-image:url(../images/parallax_bg_about.jpg);
+  min-height: 200px;
+}
+
+/* skills header parallax image */
+.skills-bg{
+  background-color:none;
+  background-image:url(../images/parallax_bg_skills.jpg);
+  min-height: 200px;
+}
+
+/* experience header parallax image */
+.exp-bg {
+  background-color:none;
+  background-image:url(../images/parallax_bg_exp.jpg);
+  min-height: 200px;
+}
+
+/* portfolio header parallax image */
+.portfolio-bg{
+  background-color:none;
+  background-image:url(../images/parallax_bg_portfolio.jpg);
+  min-height: 200px;
+}
+
+/* contact header parallax image */
+.contact-bg {
+  background-color:none;
+  background-image:url(../images/parallax_bg_contact.jpg);
+  min-height: 200px;
+}
+
+/* footer parallax image */
+.footer-bg {
+  background-color:none;
+  background-image:url(../images/parallax_bg_footer.jpg);
+  min-height: 200px;
+}
+
+/* ./ PARALLAX */
+
+
+/* content after parallax */
+.content {
+  position:absolute; 
+  width:100%; 
+  top:100%; 
+  height: 100px;
+}
+
+/* resize svg images for skill section */
+.skills-sec {
+  width  : 100px;
+  display: block;
+}
+
+
+
+/* footer */
+footer{
+  padding-top: 100px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.msc{
+  width:150px;
+  padding: 20px;
+}
+.msc-text{
+  
+  padding: 20px;
+  padding-top: 40px;
+}
+
+.terminal-left {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 50%;
+  text-align: left;
+  text-shadow: 2px 2px 4px #000000;
+  color: #000;
+
+}
+
+
+/* HEADINGS */
+.heading {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+}
+
+.heading span.center {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+/* ./ HEADINGS */
+
+/* PORTFOLIO */
+
+.portfolio-sec{
+  padding-top: 50px;
+  width  : 200px;
+  display: block;
+}
+
+img.portfolio-sec:hover {
+  opacity: 0.5;
+  filter: brightness(50%);
+}
+/* ./ PORTFOLIO */
+
+/* TERMINAL */
+span.cursor:after {
+	content:"_";
+	opacity: 0;
+	animation: cursor 1s infinite;
+}
+
+.terminal-style{
+	font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5em;
+  color: white;
+}
+
+@keyframes cursor {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* ./ TERMINAL */
+
+#contact-form{
+  padding-top:40px;
+}
+
+/* global link color testing */
+a {
+  color:black;
+}
+
+a:hover{
+  color:grey;
+}
