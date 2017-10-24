@@ -1,36 +1,30 @@
 /* main.css */
 
-/* * {
-  outline: 1px solid red;
- } */
+/* CSS by Tony Elistratov */
 
-/* body{
+/* Debugging CSS */
+/*
+* {
+  outline: 1px solid red;
+} 
+
+body{
   background-color: purple;
   margin: 0;
-} */
+}
+*/
+/*./Debugging CSS */
 
-/* #bug-report{
-  position: absolute;
-  left: 98%;
-  top: 96.5%;
 
-  display: block;
-} */
-
-/* Alpha build.
+/* Beta build.
 // to do
-your colors suck Tony change them
-remove comments
-make code readable
-check responsive design on phones
-add credits for assets
- */
+add credits for images
+structure and rearrange css
+*/
 
 @import "compass/css3"; /* terminal animation*/
 
 /* ---------------------------- */
-
-
 
 /* front page WebGL black background and placeholder */
 .front-pg-bg {
@@ -126,6 +120,7 @@ add credits for assets
 
 
 
+
 /* footer */
 footer{
   padding-top: 100px;
@@ -136,12 +131,13 @@ footer{
 
 .msc{
   width:150px;
-  padding: 20px;
+  padding: 5px;
+
 }
 .msc-text{
   
-  padding: 20px;
-  padding-top: 40px;
+  padding-top: 10px;
+
 }
 
 .terminal-left {
@@ -227,9 +223,39 @@ span.cursor:after {
 
 /* global link color testing */
 a {
-  color:black;
+  color:white;
 }
 
 a:hover{
-  color:grey;
+  color:black;
+}
+
+
+/* soundcloud pro player */
+#soundcloud{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+/* ./soundcloud pro player */
+
+#bug-report{
+  position: absolute;
+  top: 5;
+  right: 1;
+  width: 10%;
+}
+
+#bug-report img{
+  position: absolute;
+  right: 1;
+  width: 24px;
+}
+
+#bug-report img:hover{
+  opacity: 0.6;
+}
+
+#my-bio{
+  padding: 40px;
 }
