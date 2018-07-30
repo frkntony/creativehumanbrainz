@@ -29,14 +29,14 @@ structure and rearrange css
 /* front page WebGL black background and placeholder */
 .front-pg-bg {
   background-color:black;
-  min-height: 100%;
+  height: 100%;
 }
 
 /* NAVBAR */
 
 /* transparent navbar */
 .navbar{
-  background: none;
+  background: transparent;
 }
 
 /* white links */
@@ -61,43 +61,43 @@ structure and rearrange css
 
 /* about header parallax image */
 .about-bg{
-  background-color:none;
+  background-color: transparent;
   background-image:url(../images/parallax_bg_about.jpg);
   min-height: 200px;
 }
 
 /* skills header parallax image */
 .skills-bg{
-  background-color:none;
-  background-image:url(../images/parallax_bg_skills.jpg);
+  background-color: transparent;
+  background-image: url(../images/parallax_bg_skills.jpg);
   min-height: 200px;
 }
 
 /* experience header parallax image */
 .exp-bg {
-  background-color:none;
-  background-image:url(../images/parallax_bg_exp.jpg);
+  background-color: transparent;
+  background-image: url(../images/parallax_bg_exp.jpg);
   min-height: 200px;
 }
 
 /* portfolio header parallax image */
 .portfolio-bg{
-  background-color:none;
-  background-image:url(../images/parallax_bg_portfolio.jpg);
+  background-color: transparent;
+  background-image: url(../images/parallax_bg_portfolio.jpg);
   min-height: 200px;
 }
 
 /* contact header parallax image */
 .contact-bg {
-  background-color:none;
-  background-image:url(../images/parallax_bg_contact.jpg);
+  background-color: transparent;
+  background-image: url(../images/parallax_bg_contact.jpg);
   min-height: 200px;
 }
 
 /* footer parallax image */
 .footer-bg {
-  background-color:none;
-  background-image:url(../images/parallax_bg_footer.jpg);
+  background-color: transparent;
+  background-image: url(../images/parallax_bg_footer.jpg);
   min-height: 200px;
 }
 
@@ -117,9 +117,6 @@ structure and rearrange css
   width  : 100px;
   display: block;
 }
-
-
-
 
 /* footer */
 footer{
@@ -241,14 +238,14 @@ a:hover{
 
 #bug-report{
   position: absolute;
-  top: 5;
-  right: 1;
+  top: 1px;
+  right: 1px;
   width: 10%;
 }
 
 #bug-report img{
   position: absolute;
-  right: 1;
+  right: 1px;
   width: 24px;
 }
 
