@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <!--character encoding-->
   <meta charset="utf-8">
   <!--responsive tag-->
-
+  <meta name="viewport" content="width=device-width">
   <title>CreativeHumanBrainz</title>
 
   <!-- 3rd party fonts -->
@@ -14,7 +15,8 @@
   <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
 
   <!--bootstrap-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+    crossorigin="anonymous">
 
   <!--custom styles-->
   <link rel="stylesheet" href="css/main.css">
@@ -23,301 +25,304 @@
 
 <body>
 
-<!--frontpage-->
+  <!--frontpage-->
 
-<div id="front-pg-bg" class="front-pg-bg">
+  <div id="front-pg-bg" class="front-pg-bg">
 
-  <!--navbar-->
-  <nav class="navbar navbar-toggleable-sm">
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav" id="mynav">
-        <a class="nav-item nav-link" href="#front-pg-bg">HOME <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#about">ABOUT</a>
-        <a class="nav-item nav-link" href="#skills-section">SKILLS</a>
-        <a class="nav-item nav-link" href="#experience">EXPERIENCE</a>
-        <a class="nav-item nav-link" href="#portfolio">PORTFOLIO</a>
-        <a class="nav-item nav-link" href="#contact">CONTACT</a>
+    <!--navbar-->
+    <nav class="navbar navbar-toggleable-sm">
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav" id="mynav">
+          <a class="nav-item nav-link" href="#front-pg-bg">HOME <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#about">ABOUT</a>
+          <a class="nav-item nav-link" href="#skills-section">SKILLS</a>
+          <a class="nav-item nav-link" href="#experience">EXPERIENCE</a>
+          <a class="nav-item nav-link" href="#portfolio">PORTFOLIO</a>
+          <a class="nav-item nav-link" href="#contact">CONTACT</a>
+        </div>
+      </div>
+    </nav>
+    <!--./navbar-->
+
+    <!--logo webGL-->
+    <div id="figure-web" class="figure-web"></div>
+    <!--./logo webGL-->
+
+    <!--terminal-->
+    <div class="terminal-left terminal-style" id="terminal-left">
+      <div>
+        <span id="terminal-short-info"></span>
+        <span id="my-quote"></span>
+        <span class="cursor"></span>
       </div>
     </div>
-  </nav>
-  <!--./navbar-->
+    <!--./ terminal-->
 
-  <!--logo webGL-->
-  <div id="figure-web" class="figure-web"></div>
-  <!--./logo webGL-->
-
-  <!--terminal-->
-  <div class="terminal-left terminal-style" id="terminal-left">
-    <div>
-      <span id="terminal-short-info"></span>
-      <span id="my-quote"></span>
-      <span class="cursor"></span>
-    </div>
-  </div>
-  <!--./ terminal-->
-
-  <!-- soundcloud player-->
-  <!-- <div id="soundcloud">
+    <!-- soundcloud player-->
+    <!-- <div id="soundcloud">
     <iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/256640887&amp;color=%23000000&amp;inverse=true&amp;auto_play=true&amp;show_user=true"></iframe>
   </div> -->
-  <!--./soundcloud player -->
+    <!--./soundcloud player -->
 
 
-  <!--bug report-->
-  <div id="bug-report">
-    <a href="https://github.com/frkntony/frkntony.github.io/issues/new" title="I found a bug!"><img alt="report a bug!" src="images/bug.png"></a>
+    <!--bug report-->
+    <div id="bug-report">
+      <a href="https://github.com/frkntony/frkntony.github.io/issues/new" title="I found a bug!"><img alt="report a bug!"
+          src="images/bug.png"></a>
+    </div>
+    <!--./bug report-->
+
+
   </div>
-  <!--./bug report-->
+  <!--./frontpage-->
 
+  <!--content-->
+  <div class="content">
 
-</div>
-<!--./frontpage-->
-
-<!--content-->
-<div class="content">
-
-  <!--about parralax-->
-  <div class="about-bg" id="about">
+    <!--about parralax-->
+    <div class="about-bg" id="about">
       <div class="heading">
-          <span class="center">ABOUT</span>
+        <span class="center">ABOUT</span>
       </div>
-  </div>
-  <!--./about parralax-->
-
-  <!--about-->
-  <div class="container" id="short-about-bio">
-    <section>
-      <div class="row">
-        <article class="col-md-12 text-center" >
-          <p id="my-bio">I am a passionate web developer and I specialize in MEAN stack Front-End/Full-Stack development.
-          Currently, I mainly contribute to open source projects, who need a rockstar developer to fix important bug reports.
-          My dad showed me how to turn on the computer once and since that moment I started to speak code. I never stopped.
-          Now, I am trying to add new words to my vocabulary by practicing React.js, Ember.js, p5.js.
-          My educational background includes several coding bootcamps, online courses from freeCodeCamp and I am currently getting my OCAD in software development.
-          There is a rumor that I like playing chess as much as I like programming, but it is not confirmed.</p>
-        </article>
-      </div>
-    </section>
-  </div>
-  <!--./about-->
-
-  <!--skills parallax-->
-  <div class="skills-bg" id="skills-section">
-    <div class="heading">
-      <span class="center">SKILLS</span>
     </div>
-  </div>
-  <!--./skills parallax-->
+    <!--./about parralax-->
 
-  <!--skills-->
-  <div class="container">
-    <section>
-      <div class="row" id="skills-short">
-
-        <article class="col-md-3">
-          <img class="mx-auto skills-sec" alt="javascript" src="images/javascript.svg">
-          <h3 class="text-center">Javascript</h3>
-          <p>JavaScript is one of the three core technologies of World Wide Web content production. It is used to make webpages interactive and provide online programs, including video games. </p>
-        </article>
-
-        <article class="col-md-3">
-          <img class="mx-auto skills-sec" alt="jquery" src="images/jquery.svg">
-          <h3 class="text-center">JQuery</h3>
-          <p>jQuery is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML. It is free, open-source software using the permissive MIT License. Web analysis indicates that it is the most widely deployed JavaScript library by a large margin.</p>
-        </article>
-
-        <article class="col-md-3">
-          <img class="mx-auto skills-sec" alt="react" src="images/react.svg">
-          <h3 class="text-center">React</h3>
-          <p>React allows developers to create large web-applications that use data and can change over time without reloading the page. It aims primarily to provide speed, simplicity, and scalability. React processes only user interfaces in applications. </p>
-        </article>
-
-        <article class="col-md-3">
-          <img class="mx-auto skills-sec" alt="angular" src="images/angular.svg">
-          <h3 class="text-center">Angular</h3>
-          <p>Angular is a framework for building client applications in HTML and either JavaScript or a language like TypeScript that compiles to JavaScript. Angular empowers developers to build applications that live on the web, mobile, or the desktop.</p>
-        </article>
-      </div>
-    </section>
-  </div>
-  <!--./skills-->
-
-  <!--experience parallax-->
-  <div class="exp-bg" id="experience">
-    <div class="heading">
-      <span class="center">EXPERIENCE</span>
+    <!--about-->
+    <div class="container" id="short-about-bio">
+      <section>
+        <div class="row">
+          <article class="col-md-12 text-center">
+            <p id="my-bio">Hi there, my name is Tony. I am a fresh graduate and a passionate web developer. My specialty
+              is Front-End development with ReactJS. Currently, I mainly trying to improve my web development skills on a daily
+              basis. Previously, I had experience with Angular 4, Knockout.js and Ember.js. Now I’m learning Redux and focusing
+              more on using ReactJS with Typescript or Flow. Thus, I’m looking for a company or an open-source project who takes
+              advantage of the technologies I mentioned above. I’m bilingual. I speak in Russian natively and English is
+              my second language. Thus, you can find my CVs in Russian and English. My educational background includes several
+              coding bootcamps, online courses and I have an Ontario College Diploma in Software Engineering. I enjoy programming
+              and I treat as an exciting activity.
+            </p>
+          </article>
+        </div>
+      </section>
     </div>
-  </div>
-  <!--./experience parallax-->
+    <!--./about-->
 
-  <!--experience-->
-  <div class="container" >
-    <section>
-      <div class="row" style="padding-top: 40px;">
-        <div class="col-md-12">
-          <img class="msc pull-left" alt="Moscow Coding School" src="images/coding.png" style="float:left;">
-          <p class="pull-left msc-text" style="text-align: left;">Moscow Coding School is a coding bootcamp that offers a wide variety of part time courses. I was learning vanilla JavaScript, jQuery and AJAX there. I acquired my coding certificate from this bootcamp during fall 2016-2017.</p>
-        </div>
-        <div class="col-md-12">
-          <img class="msc pull-right" alt="freeCodeCamp" src="images/coding_2.jpg" style="float:right;">
-          <p class="pull-right msc-text" style="text-align: right;">FreeCodeCamp is a nonprofit organization that consists of an interactive learning web platform. I was an active user during 2017-2018 and acquired my Front-End Development Certificate.</p>
-        </div>
-        <div class="col-md-12">
-          <img class="msc pull-left" alt="Seneca College" src="images/coding_3.png" style="float:left">
-          <p class="pull-left msc-text" style="text-align: left;">Seneca College of Applied Arts and Technology is a public college located in Toronto, Ontario, Canada. I am currently enrolled in one of the software engineering programs that Seneca offers. My expected graduation date is 2018.</p>
-        </div>
-      </div>
-    </section>
-  </div>
-  <!--./experience-->
-
-  <!--portfolio parallax-->
-  <div class="portfolio-bg" id="portfolio">
-    <div class="heading">
-      <span class="center">PORTFOLIO</span>
-    </div>
-  </div>
-  <!--./portfolio parallax-->
-
-  <!--portfolio-->
-  <div class="container">
-    <section id="skills">
-      <div class="row">
-
-        <!--first row-->
-        <article class="col-md-4 text-justify">
-            <img class="mx-auto portfolio-sec" alt="A placeholder" src="images/placeholder.jpg">
-            <h3 class="text-center">Search Engine</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut ullamcorper felis, ut sodales odio. Suspendisse lectus dui, efficitur eget molestie eget, commodo vel dui. Suspendisse eu mauris hendrerit, aliquam libero vel, ornare quam. Donec quis quam eleifend, auctor lorem a, placerat quam.</p>
-        </article>
-
-        <article class="col-md-4 text-justify">
-            <img class="mx-auto portfolio-sec" alt="A placeholder" src="images/placeholder.jpg">
-            <h3 class="text-center">Tribute Page</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut ullamcorper felis, ut sodales odio. Suspendisse lectus dui, efficitur eget molestie eget, commodo vel dui. Suspendisse eu mauris hendrerit, aliquam libero vel, ornare quam. Donec quis quam eleifend, auctor lorem a, placerat quam.</p>
-        </article>
-
-        <article class="col-md-4 text-justify">
-            <img class="mx-auto portfolio-sec" alt="A placeholder" src="images/placeholder.jpg">
-            <h3 class="text-center">Twitch.tv API</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut ullamcorper felis, ut sodales odio. Suspendisse lectus dui, efficitur eget molestie eget, commodo vel dui. Suspendisse eu mauris hendrerit, aliquam libero vel, ornare quam. Donec quis quam eleifend, auctor lorem a, placerat quam.</p>
-        </article>
-        <!--./first row-->
-
-        <!--second row-->
-        <article class="col-md-4">
-            <img class="mx-auto portfolio-sec" alt="A placeholder" src="images/placeholder.jpg">
-            <h3 class="text-center">Random Quote Machine</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut ullamcorper felis, ut sodales odio. Suspendisse lectus dui, efficitur eget molestie eget, commodo vel dui. Suspendisse eu mauris hendrerit, aliquam libero vel, ornare quam. Donec quis quam eleifend, auctor lorem a, placerat quam.</p>
-        </article>
-
-        <article class="col-md-4 text-justify">
-            <img class="mx-auto portfolio-sec" alt="A placeholder" src="images/placeholder.jpg">
-            <h3 class="text-center">Local Weather</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut ullamcorper felis, ut sodales odio. Suspendisse lectus dui, efficitur eget molestie eget, commodo vel dui. Suspendisse eu mauris hendrerit, aliquam libero vel, ornare quam. Donec quis quam eleifend, auctor lorem a, placerat quam.</p>
-        </article>
-
-        <article class="col-md-4 text-justify">
-            <img class="mx-auto portfolio-sec" alt="A placeholder" src="images/placeholder.jpg">
-            <h3 class="text-center">Wikipedia Viewer</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut ullamcorper felis, ut sodales odio. Suspendisse lectus dui, efficitur eget molestie eget, commodo vel dui. Suspendisse eu mauris hendrerit, aliquam libero vel, ornare quam. Donec quis quam eleifend, auctor lorem a, placerat quam.</p>
-        </article>
-        <!--./second row-->
-
-      </div>
-    </section>
-  </div>
-  <!-- ./ portfolio -->
-
-  <!-- contact parallax -->
-  <div class="contact-bg" id="contact">
+    <!--skills parallax-->
+    <div class="skills-bg" id="skills-section">
       <div class="heading">
-          <span class="center">CONTACT</span>
+        <span class="center">SKILLS</span>
       </div>
-  </div>
-  <!-- ./ contact parallax-->
+    </div>
+    <!--./skills parallax-->
 
-  <!-- contact -->
-  <div class="container" id="contact-form">
-    <div class="row">
-      <div class="col-sm-12 col-sm-offset-1">
-        <div class="well">
-          <form>
-            <div class="row">
-              <div class="col-sm-4">
-                <div class="form-group">
-                  <label for="fname">First Name</label>
-                  <input type="text" name="fname" id="fname" class="form-control" />
-                </div>
-                <div class="form-group">
-                  <label for="lname">Last Name</label>
-                  <input type="text" name="lname" id="lname" class="form-control" />
-                </div>
-                <div class="form-group">
-                  <label for="email">Email</label>
-                  <input type="text" name="email" id="email" class="form-control" />
-                </div>
-                <div class="form-group">
-                  <label for="subject">Subject</label>
-                  <select name="subject" id="subject" class="form-control">
-                    <option>Front-End/Full-Stack Project</option>
-                    <option>Open Source Contribution</option>
-                    <option>Another Gig</option>
-                  </select>
-                </div>
-              </div>
-              <div class="col-sm-8">
-                <div class="form-group">
-                  <label for="message">Message</label>
-                  <textarea class="form-control" name="message" id="message" rows="10"></textarea>
-                </div>
-                <div class="text-right">
-                  <input type="submit" onclick="alert('I will set up NodeJS script later');" class='btn btn-primary' value='Submit' />
-                </div>
-              </div>
-            </div>
-          </form>
+    <!--skills-->
+    <div class="container">
+      <section>
+        <div class="row" id="skills-short">
+
+          <article class="col-md-3">
+            <img class="mx-auto skills-sec" alt="javascript" src="images/javascript.svg">
+            <h3 class="text-center">Javascript</h3>
+            <p>JavaScript is one of the three core technologies of World Wide Web content production. It is used to make
+              webpages interactive and provide online programs, including video games. </p>
+          </article>
+
+          <article class="col-md-3">
+            <img class="mx-auto skills-sec" alt="jquery" src="images/jquery.svg">
+            <h3 class="text-center">JQuery</h3>
+            <p>jQuery is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML. It is
+              free, open-source software using the permissive MIT License. Web analysis indicates that it is the most widely
+              deployed JavaScript library by a large margin.</p>
+          </article>
+
+          <article class="col-md-3">
+            <img class="mx-auto skills-sec" alt="react" src="images/react.svg">
+            <h3 class="text-center">React</h3>
+            <p>React allows developers to create large web-applications that use data and can change over time without reloading
+              the page. It aims primarily to provide speed, simplicity, and scalability. React processes only user interfaces
+              in applications. </p>
+          </article>
+
+          <article class="col-md-3">
+            <img class="mx-auto skills-sec" alt="angular" src="images/angular.svg">
+            <h3 class="text-center">Angular</h3>
+            <p>Angular is a framework for building client applications in HTML and either JavaScript or a language like TypeScript
+              that compiles to JavaScript. Angular empowers developers to build applications that live on the web, mobile,
+              or the desktop.</p>
+          </article>
+        </div>
+      </section>
+    </div>
+    <!--./skills-->
+
+    <!--experience parallax-->
+    <div class="exp-bg" id="experience">
+      <div class="heading">
+        <span class="center">EXPERIENCE</span>
+      </div>
+    </div>
+    <!--./experience parallax-->
+
+    <!--experience-->
+    <div class="container">
+      <section>
+
+        <div class="row">
+
+          <div class="mx-auto center-block col-sm-12 col-md-2">
+            <img class="mx-auto msc " alt="Moscow Coding School" src="images/coding.png">
+          </div>
+
+          <div class="mx-auto center-block col-sm-12 col-md-10">
+            <p class="msc-text text-justify">Moscow Coding School is a coding bootcamp that offers
+              a wide variety of part time courses. I was learning vanilla JavaScript, jQuery and AJAX there. I acquired my
+              coding certificate from this bootcamp during fall 2016-2017.</p>
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-md-2 col-sm-12">
+            <img class="mx-auto msc" alt="Moscow Coding School" src="images/coding_3.png">
+          </div>
+
+          <div class="col-md-10 col-sm-12">
+            <p class="msc-text text-justify">Seneca College of Applied Arts and Technology is a public college located in Toronto,
+              Ontario, Canada. I completed one of the software engineering programs that Seneca offers. I graduated in 2018.
+              Now I have an Ontario College Diploma.</p>
+          </div>
+
+        </div>
+      </section>
+    </div>
+    <!--./experience-->
+
+    <!--portfolio parallax-->
+    <div class="portfolio-bg" id="portfolio">
+      <div class="heading">
+        <span class="center">PORTFOLIO</span>
+      </div>
+    </div>
+    <!--./portfolio parallax-->
+
+    <!--portfolio-->
+    <div class="container">
+      <section id="skills">
+        <div class="row">
+
+          <!--first row-->
+          <article class="col-md-4 text-justify">
+            <a href="https://github.com/frkntony/veil-like-discord"><img class="mx-auto portfolio-sec" alt="A placeholder" src="images/veil_ready.png"></a>
+            <h3 class="text-center ">Veil</h3>
+            <p>A ReactJS web chat built with Pusher's ChatkitSDK for realtime communication. Key features: allows you to
+              chat with multiple users, stores your chat history and monitors online room presence.</p>
+          </article>
+
+          <article class="col-md-4 text-justify">
+            <a href="https://github.com/frkntony/cryptonomitor"><img class="mx-auto portfolio-sec" alt="A placeholder" src="images/crypto_ready.png"></a>
+            <h3 class="text-center">Cryptonomitor</h3>
+            <p>A progressive web app built with ReactJS. Monitors cryptocurrency in realtime, takes advantage of local storage
+              and is ready to be installed and used on mobile devices.</p>
+          </article>
+
+          <article class="col-md-4 text-justify">
+            <a href="https://github.com/frkntony/image-raid"><img class="mx-auto portfolio-sec" alt="A placeholder" src="images/image_ready.png"></a>
+            <h3 class="text-center">Image Raid</h3>
+            <p>A ReactJS image search engine that allows you to search for your favorite pictures. Updates your queries in
+              seconds and shows you live results.</p>
+          </article>
+          <!--./first row-->
+
+          <!--second row-->
+          <article class="col-md-6">
+            <a href="https://github.com/frkntony/lorem-ipsum-text-generator"><img class="mx-auto portfolio-sec" alt="A placeholder"
+                src="images/lorem_ready.png"></a>
+            <h3 class="text-center">Lorem Impsum Generator</h3>
+            <p>A ReactJS web app that allows you to generate Lorem Impsum text.</p>
+          </article>
+
+          <article class="col-md-6 text-justify">
+            <a href="https://github.com/frkntony/survey-data-harvester"><img class="mx-auto portfolio-sec" alt="A placeholder"
+                src="images/survey_ready.png"></a>
+            <h3 class="text-center">Survey Data Harvester</h3>
+            <p>A ReactJS web app that collects users data, anonymizes it and sends it to firebase.</p>
+          </article>
+          <!--./second row-->
+
+        </div>
+      </section>
+    </div>
+    <!-- ./ portfolio -->
+
+    <!-- contact parallax -->
+    <div class="contact-bg" id="contact">
+      <div class="heading">
+        <span class="center">CONTACT</span>
+      </div>
+    </div>
+    <!-- ./ contact parallax-->
+
+    <!-- contact -->
+    <div class="container" id="contact-form">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+
+          <p>It's pretty easy to get in touch with me. I'm answering all the emails. If you need me immediately then contact
+            me on telegram.</p>
+          <p>Write and say hi to me here! </p>
+
+
+          <p><b>email</b>: <a href="mailto:hi@creativehumanbrainz.com?Subject=Hi" target="_top"><i style="color: black">hi@creativehumanbrainz.com</i></a></p>
+          <p><b>telegram</b>: <a href="https://t.me/frkntony"><i style="color: black">@frkntony</i></a> </p>
+
+
         </div>
       </div>
     </div>
-  </div>
-  <!--./contact-->
+    <!--./contact-->
 
-  <!--footer-->
-  <div class="footer-bg">
-    <div class="container-fluid text-center">
-      <div class="row">
-        <footer class="col-md-12">
-          <!--created from scratch with love and passion by Tony Elistratov <3-->
-          <span><a href="https://github.com/frkntony">GitHub</a> | <a href="https://github.com/frkntony/frkntony.github.io">Source Code</a></span><br>
-          <span>Brought to you by <a href="http://creativehumanbrainz.com/">CreativeHumanBrainz</a></span>
-        </footer>
+    <!--footer-->
+    <div class="footer-bg">
+      <div class="container-fluid text-center">
+        <div class="row">
+          <footer class="col-md-12">
+            <!--created from scratch with love and passion by Tony Elistratov <3-->
+            <span><a href="https://github.com/frkntony">GitHub</a> | <a href="https://github.com/frkntony/frkntony.github.io">Source
+                Code
+              </a></span><br>
+            <span>Brought to you by <a href="http://creativehumanbrainz.com/">CreativeHumanBrainz</a></span>
+          </footer>
+        </div>
       </div>
     </div>
+    <!--./footer-->
   </div>
-  <!--./footer-->
-</div>
-<!-- ./ content -->
+  <!-- ./ content -->
 
-<!--JavaScript <3-->
-<!--jquery-->
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<!--tether-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<!--bootstrap-->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-<!--typed-->
-<script src="lib/typed.min.js"></script>
-<!--terminal-->
-<script src="js/terminal.js"></script>
-<!--three-->
-<script src="lib/three.min.js"></script>
-<!--Detector-->
-<script src="lib/Detector.js"></script>
-<!--source logo-->
-<script src="js/logo.js"></script>
+  <!--JavaScript <3-->
+  <!--jquery-->
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+    crossorigin="anonymous"></script>
+  <!--tether-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+    crossorigin="anonymous"></script>
+  <!--bootstrap-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+    crossorigin="anonymous"></script>
+  <!--typed-->
+  <script src="lib/typed.min.js"></script>
+  <!--terminal-->
+  <script src="js/terminal.js"></script>
+  <!--three-->
+  <script src="lib/three.min.js"></script>
+  <!--Detector-->
+  <script src="lib/Detector.js"></script>
+  <!--source logo-->
+  <script src="js/logo.js"></script>
 
-<!--custom scripts-->
-<script src="js/main.js"></script>
+  <!--custom scripts-->
+  <script src="js/main.js"></script>
 </body>
+
 </html>

@@ -129,12 +129,13 @@ footer{
 .msc{
   width:150px;
   padding: 5px;
+  display: block;
 
 }
 .msc-text{
   
   padding-top: 10px;
-
+  display: block;
 }
 
 .terminal-left {
